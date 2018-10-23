@@ -1,0 +1,47 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-bilder-js",
+        "jsonName": "bilder-82f",
+        "path": "/bilder/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-farger-js",
+        "jsonName": "farger-130",
+        "path": "/farger/"
+    },
+    {
+        "componentChunkName": "component---src-pages-grafiska-element-js",
+        "jsonName": "grafiska-element-f31",
+        "path": "/grafiska-element/"
+    },
+    {
+        "componentChunkName": "component---src-pages-logotyp-js",
+        "jsonName": "logotyp-f6f",
+        "path": "/logotyp/"
+    },
+    {
+        "componentChunkName": "component---src-pages-typografi-js",
+        "jsonName": "typografi-871",
+        "path": "/typografi/"
+    }
+]
