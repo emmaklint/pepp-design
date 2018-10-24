@@ -10,6 +10,12 @@ import "./layout.css";
 const Section = styled.div`
 padding: 2em;
 `
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+`;
 
 const Layout = ({ children }) => (
   <StaticQuery

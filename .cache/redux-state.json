@@ -290,7 +290,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/pepp.png"
+        "icon": "src/images/pepp-logotyp.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -359,7 +359,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9960fea4090bc37a298f71afb1185229",
+        "contentDigest": "73a8894db85fd71aceb2e3a327465716",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -605,7 +605,7 @@
       "resolve": "/Users/emmaklint/Dev/pepp-design",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a8f9fa6430f16b49ed8645460b9973c3",
+      "version": "0378a6c3c58544d85e00dea259f70e21",
       "pluginOptions": {
         "plugins": []
       },
@@ -705,7 +705,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "24c7378e4d3605ad6f56be5720d7c53f",
+        "contentDigest": "1ac6498aeaeb0ad78740a931ea4dab36",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -813,12 +813,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-24T16:32:04.439Z",
+      "buildTime": "2018-10-24T22:21:06.998Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dfa777a5cf14a834fd570bf1b6cbb7b2",
+        "contentDigest": "57cb9cfb969c92e3f3d78132c02d20d7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -986,7 +986,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "e23cab93173cb10885e1d22993ca69be"
+    "PLUGINS_HASH": "526994a42124f9104aea061ed492b516"
   },
   "componentDataDependencies": {
     "nodes": {

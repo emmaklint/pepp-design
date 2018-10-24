@@ -1,13 +1,13 @@
 import React from "react";
 import Layout from "../components/layout";
-import { P, H1, H2 } from "../components/Typography/Typography";
+import { P, LineHeading } from "../components/Typography/Typography";
 import { Grid, GridItem } from "styled-grid-responsive";
 
 const IndexPage = () => (
   <Layout>
     <Grid>
       <GridItem col={1}>
-        <H1>Grafisk profil</H1>
+        <LineHeading>Grafisk profil</LineHeading>
         <P>
           Vi vill kommunicera en enhetlig bild av Pepp. Pepps grafiska profil
           finns till för att det ska vara lätt att skapa grafiskt material och
@@ -16,7 +16,7 @@ const IndexPage = () => (
           stad och år.
         </P>
 
-        <H2>Kort historik om Pepps grafiska profil</H2>
+        <h2>Kort historik om Pepps grafiska profil</h2>
         <P>
           Pepps grafiska profil har alltid strävat efter att vara färgglad och
           peppande. Den gula loggan som står i centrum har varit med sedan
