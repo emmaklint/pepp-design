@@ -8,7 +8,7 @@ const typography = new Typography({
     },
     {
       name: 'Raleway',
-      styles: ['700'],
+      styles: ['800'],
     },
   ],
     baseFontSize: "24px",

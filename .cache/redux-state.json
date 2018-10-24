@@ -290,7 +290,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/images/pepp.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -359,7 +359,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5a0e58b9c4af718d5357f87e383ad379",
+        "contentDigest": "9960fea4090bc37a298f71afb1185229",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -527,11 +527,85 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/emmaklint/Dev/pepp-design/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": [],
+        "displayName": false
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/emmaklint/Dev/pepp-design/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "05a10821e22913e1c980013ff399cfac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/emmaklint/Dev/pepp-design",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a986fa16f07f208f6eb28733294d978a",
+      "version": "a8f9fa6430f16b49ed8645460b9973c3",
       "pluginOptions": {
         "plugins": []
       },
@@ -549,6 +623,10 @@
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.8.0"
+          },
           {
             "name": "gatsby",
             "version": "^2.0.19"
@@ -570,6 +648,10 @@
             "version": "^3.0.0"
           },
           {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.0"
+          },
+          {
             "name": "gatsby-plugin-typography",
             "version": "^2.2.0"
           },
@@ -588,6 +670,10 @@
           {
             "name": "react-typography",
             "version": "^0.16.13"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.0.2"
           },
           {
             "name": "typography",
@@ -615,7 +701,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ad636fd218bb78d343cc4aa4e502ed21",
+        "contentDigest": "24c7378e4d3605ad6f56be5720d7c53f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -721,12 +807,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-10-23T20:34:27.503Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-23T22:25:40.421Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4dd755b91122eb9990db39835196aff7",
+        "contentDigest": "bde7c648459de48078c2b2ef8facf33d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -747,6 +835,66 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "75091e70244ee51ee9eeb091f0040f3d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /bilder/": {
+      "jsonName": "bilder-82f",
+      "internalComponentName": "ComponentBilder",
+      "path": "/bilder/",
+      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js",
+      "componentChunkName": "component---src-pages-bilder-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js",
+      "id": "SitePage /bilder/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "70f3539690fd7a066d535494e15e49d5",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /farger/": {
+      "jsonName": "farger-130",
+      "internalComponentName": "ComponentFarger",
+      "path": "/farger/",
+      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js",
+      "componentChunkName": "component---src-pages-farger-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js",
+      "id": "SitePage /farger/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f76f7fc2dacea60bc27dd92a8b800726",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /grafiska-element/": {
+      "jsonName": "grafiska-element-f31",
+      "internalComponentName": "ComponentGrafiskaElement",
+      "path": "/grafiska-element/",
+      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js",
+      "componentChunkName": "component---src-pages-grafiska-element-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js",
+      "id": "SitePage /grafiska-element/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5b63aba4b26b5a7d59f58b94774cf1e0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -791,46 +939,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "062a0116c9072eb64bac8d15345a0b13",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /farger/": {
-      "jsonName": "farger-130",
-      "internalComponentName": "ComponentFarger",
-      "path": "/farger/",
-      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js",
-      "componentChunkName": "component---src-pages-farger-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js",
-      "id": "SitePage /farger/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f76f7fc2dacea60bc27dd92a8b800726",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /typografi/": {
       "jsonName": "typografi-871",
       "internalComponentName": "ComponentTypografi",
@@ -851,50 +959,30 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /bilder/": {
-      "jsonName": "bilder-82f",
-      "internalComponentName": "ComponentBilder",
-      "path": "/bilder/",
-      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js",
-      "componentChunkName": "component---src-pages-bilder-js",
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js",
-      "id": "SitePage /bilder/",
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/404.js",
+      "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "70f3539690fd7a066d535494e15e49d5",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /grafiska-element/": {
-      "jsonName": "grafiska-element-f31",
-      "internalComponentName": "ComponentGrafiskaElement",
-      "path": "/grafiska-element/",
-      "component": "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js",
-      "componentChunkName": "component---src-pages-grafiska-element-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js",
-      "id": "SitePage /grafiska-element/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5b63aba4b26b5a7d59f58b94774cf1e0",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "062a0116c9072eb64bac8d15345a0b13",
+        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "912b064eecdbcaf3a18326f6a8b9574e"
+    "PLUGINS_HASH": "1974aa2ed5d3a3d549c3b3720cb4e48d"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -931,6 +1019,18 @@
       "query": "",
       "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/404.js"
     },
+    "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js": {
+      "query": "",
+      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js"
+    },
+    "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js": {
+      "query": "",
+      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js"
+    },
+    "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js": {
+      "query": "",
+      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js"
+    },
     "/Users/emmaklint/Dev/pepp-design/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/index.js"
@@ -939,21 +1039,9 @@
       "query": "",
       "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/logotyp.js"
     },
-    "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js": {
-      "query": "",
-      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/farger.js"
-    },
     "/Users/emmaklint/Dev/pepp-design/src/pages/typografi.js": {
       "query": "",
       "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/typografi.js"
-    },
-    "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js": {
-      "query": "",
-      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/bilder.js"
-    },
-    "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js": {
-      "query": "",
-      "componentPath": "/Users/emmaklint/Dev/pepp-design/src/pages/grafiska-element.js"
     }
   },
   "staticQueryComponents": {
