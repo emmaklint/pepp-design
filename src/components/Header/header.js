@@ -1,6 +1,6 @@
 import React from "react";
 import Item from "./item";
-import pepp from "../../images/pepp.png";
+import logotyp from "../../images/pepp-logotyp.png";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
   <StyledHeader>
     <Link to="/">
       <StyledHeaderLogo
-        src={pepp}
+        src={logotyp}
         alt="Pepp"
       />
     </Link>

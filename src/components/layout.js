@@ -8,7 +8,7 @@ import Header from "./Header/header";
 import "./layout.css";
 
 const Section = styled.div`
-padding: 50px;
+padding: 2em;
 `
 
 const Layout = ({ children }) => (

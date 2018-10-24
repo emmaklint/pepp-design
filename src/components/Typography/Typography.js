@@ -13,4 +13,4 @@ const H2 = styled.h2`
 font-family: Raleway;
 `
 
-export {P, H1, H2 }
+export { P, H1, H2 }
